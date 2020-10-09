@@ -1,13 +1,15 @@
 {
+    "account": {
+        "change-password": "change-password",
+        "change-settings": "change-settings"
+    },
     "admin": {
         "label": {
             "account": "compte",
             "event": "\u00e9v\u00e9nement",
             "people": "personnes",
             "picture": "photo",
-            "report": "signaler",
             "tag": "\u00e9tiquette",
-            "tags": "\u00e9tiquettes",
             "translate": "traduire",
             "video": "vid\u00e9o"
         },
@@ -16,7 +18,6 @@
             "born": "n\u00e9",
             "date": "date",
             "death": "d\u00e9c\u00e8s",
-            "description": "description",
             "event": "\u00e9v\u00e9nement",
             "name": "nom",
             "photographer": "photographe",
@@ -24,7 +25,6 @@
             "profil": "profil",
             "tags": "\u00e9tiquettes",
             "title": "titre",
-            "value": "value",
             "video": "vid\u00e9o",
             "wikipedia": "wikipedia",
             "your-message": "votre message"
@@ -36,7 +36,6 @@
         "check-email-description": "avant de vous connecter, vous devez valider votre adresse email",
         "comfirm-new-password": "Confirmer le nouveau mot de passe",
         "comfirm-password": "mot de passe de confirmation",
-        "confirme-delete-account": "confirmer la suppression du compte",
         "connection-account": "se connecter",
         "create-account": "cr\u00e9er un compte",
         "delete-account": "supprimer le compte",
@@ -61,12 +60,17 @@
         "error-in-form": "erreur dans le formulaire",
         "language": "traduction manquante",
         "network": "erreur, pas de connexion internet",
-        "server": "erreur du serveur",
-        "unique-translate": "cette object \"{model}\" a un doublon de traduction"
+        "server": "erreur du serveur"
     },
     "help": {
+        "account": {
+            "color-mode": "color-mode",
+            "default-language": "default-language",
+            "show-help": "show-help"
+        },
         "event": {
             "date": "La date au moment o\u00f9 l'\u00e9v\u00e9nement commence, vous pouvez simplement r\u00e9gler la date sans l'heure (la laisser \u00e0 00:00 minuit), pour ajouter \u00e9galement des secondes sp\u00e9cifiques dans des cas particuliers (comme l'explosion du r\u00e9acteur \u00e0 1h23m44s).",
+            "event": "event",
             "global-description": "ce sont les \u00e9v\u00e9nements importants de Tchernobyl, tous ces \u00e9v\u00e9nements seront dans la chronologie du site.",
             "langs-description": "\u00c9crivez la description de l'\u00e9v\u00e9nement, ce qui s'est pass\u00e9, pourquoi, ou, etc... Cela sera utilis\u00e9 dans les textes affich\u00e9s dans la chronologie.",
             "langs-title": "Donnez un titre \u00e0 la vid\u00e9o pour en donner une br\u00e8ve description, dans la langue choisie",
@@ -75,6 +79,9 @@
         "language": {
             "global-description": "la langue du texte que vous avez \u00e9crit"
         },
+        "language-dosent-exist": "language-dosent-exist",
+        "language-no-selected": "language-no-selected",
+        "need-translation": "need-translation",
         "people": {
             "biography": "Une biographie de cette personne, sa vie, etc...",
             "born": "La date \u00e0 laquelle il ou elle est n\u00e9(e)",
@@ -93,14 +100,13 @@
             "title": "vous donnez un titre \u00e0 la vid\u00e9o pour en donner une br\u00e8ve description, doit \u00eatre en anglais !"
         },
         "report": {
-            "global-description": "Vous pouvez signaler tout objet, \u00e0 supprimer, \u00e0 modifier ou autre, vous \u00e9crivez ce que vous voulez (en fran\u00e7ais ou en anglais) et je m'en occupe d\u00e8s que possible."
+            "global-description": "global-description"
         },
         "tag": {
             "global-description": "ce sont des \u00e9tiquettes qui aident \u00e0 la recherche d'un \u00e9l\u00e9ment",
             "langs-name": "une traduction de l'\u00e9tiquettes"
         },
         "translate": {
-            "description": "vous pouvez aider \u00e0 traduire ce site !\nSur cette page, vous trouverez sous chaque cat\u00e9gorie les textes \u00e0 traduire (noms des menus, boutons, messages d'aide pour la cr\u00e9ation de contenu, etc...)",
             "global-description": "translate"
         },
         "video": {
@@ -118,9 +124,14 @@
         "gallery": "galerie",
         "home": "accueil",
         "picture": "images",
-        "register": "s'inscrire",
         "timeline": "chronologie",
         "video": "vid\u00e9o"
+    },
+    "message": {
+        "color-mode": "color-mode",
+        "default-language": "default-language",
+        "delete": "delete",
+        "show-help": "show-help"
     },
     "pages": {
         "about": {
@@ -144,6 +155,10 @@
             "description": "Vous pouvez me contacter pour toute demande, je vous r\u00e9pondrai dans les plus brefs d\u00e9lais !",
             "title": "contact"
         },
+        "forgot-password": {
+            "description": "description",
+            "title": "title"
+        },
         "home": {
             "description": "La catastrophe nucl\u00e9aire de Tchernobyl est un accident nucl\u00e9aire majeur survenu le 26 avril 1986 dans la centrale nucl\u00e9aire V.I. L\u00e9nine, situ\u00e9e \u00e0 l'\u00e9poque en r\u00e9publique socialiste sovi\u00e9tique d'Ukraine, en URSS. Il s'agit de la plus grave catastrophe nucl\u00e9aire du XXe si\u00e8cle, class\u00e9e au niveau 7 (le plus \u00e9lev\u00e9) de l'\u00e9chelle internationale des \u00e9v\u00e9nements nucl\u00e9aires (INES), surpassant, d'apr\u00e8s l'Institut de radioprotection et de s\u00fbret\u00e9 nucl\u00e9aire (IRSN), par ses impacts environnementaux imm\u00e9diats l'accident nucl\u00e9aire de Fukushima de 2011, class\u00e9 au m\u00eame niveau. L'IRSN mentionne pour ces accidents des effets sanitaires potentiels, une contamination durable de territoires et d'importantes cons\u00e9quences \u00e9conomiques et sociales.",
             "presentation": "pr\u00e9sentation",
@@ -157,10 +172,6 @@
             "description": "Une immense galerie de photos d'\u00e9poque sur toute l'histoire de Tchernobyl, de la construction, \u00e0 la photo de l'explosion du r\u00e9acteur, en passant par les liquidateurs.",
             "title": "galerie d'image"
         },
-        "rechange-password": {
-            "description": "Vous avez oubli\u00e9 votre mot de passe ? R\u00e9initialisez-le !",
-            "title": "R\u00e9initialisez votre mot de passe"
-        },
         "register": {
             "description": "Rejoignez la communaut\u00e9 chernobyle.org pour partager votre photo, votre vid\u00e9o et bien plus encore !",
             "title": "inscription"
@@ -173,46 +184,40 @@
     "success": {
         "contact": "Votre message a \u00e9t\u00e9 envoy\u00e9 avec succ\u00e8s",
         "create": "cr\u00e9ation effectu\u00e9e avec succ\u00e8s",
-        "delete-account": "suppression du compte avec succ\u00e8s",
-        "deleted": "suppression effectu\u00e9e avec succ\u00e8s",
+        "delete": "delete",
         "password-changed": "le mot de passe a \u00e9t\u00e9 modifi\u00e9",
-        "report": "signalement envoy\u00e9 avec succ\u00e8s",
+        "report": "report",
         "update": "mise \u00e0 jour effectu\u00e9e avec succ\u00e8s"
+    },
+    "success-account": "success-account",
+    "text": {
+        "wikipedia-link": "wikipedia-link"
     },
     "tools": {
         "action": "action",
-        "add": "ajouter",
         "ascending": "croissant",
         "cancel": "annuler",
         "creator": "cr\u00e9ateur",
         "date": "date",
         "deleted": "\u00eates-vous s\u00fbr de vouloir supprimer cet objet ?",
         "descending": "d\u00e9croissant",
-        "detail": "d\u00e9tail",
         "list": "liste",
         "name": "nom",
-        "new": "nouveau",
         "save": "sauvegarder",
         "save-add-other": "sauvegarder et ajouter d'autres",
         "save-continue-editing": "sauvegarder et continuer l'\u00e9dition",
         "uuid": "type"
     },
     "utils": {
-        "actions": "actions",
-        "actual-link": "lien actuel",
-        "admin": "admin",
         "best-contributor": "meilleur contributeur",
         "best-contributor-week": "meilleur contributeur de la semaine",
         "cancel": "annuler",
-        "category": "category",
         "change-sort-order": "modifier l'ordre de tri",
         "close": "fermer",
         "contact": "contact",
         "content": "contenu",
         "create": "cr\u00e9er",
-        "currently": "actuellement",
         "delete": "supprimer",
-        "download": "t\u00e9l\u00e9charger",
         "edit": "\u00e9diter",
         "empty": "vide",
         "goto-about": "aller \u00e0 propos de",
@@ -225,27 +230,21 @@
         "goto-timeline": "aller \u00e0 la chronologie",
         "goto-video": "aller aux vid\u00e9os",
         "hours": "heures",
-        "identifier": "identifiant",
+        "id": "id",
         "language": "langue",
-        "last-contributing": "derni\u00e8re contribution",
-        "link": "lien",
-        "list": "liste",
         "loading": "chargement",
         "lock-password": "verrouiller le mot de passe",
         "love": "amour",
         "menu-medias": "medias",
         "minutes": "min",
-        "missing": "missing",
         "mood-sad": "humeur triste",
         "navigation": "navigation",
         "need-translation": "besoin de traduction",
         "next": "suivant",
         "next-event": "prochain \u00e9v\u00e9nement",
         "no": "non",
-        "no-example-available": "pas d'exemple disponible",
         "open-menu": "ouvrir menu",
         "or": "ou",
-        "other-language": "autres langues",
         "percentage": "percentage",
         "picture": "photo",
         "prev": "pr\u00e9c\u00e9dent",
@@ -255,13 +254,33 @@
         "send": "envoyer",
         "site-navigation": "site-navigation",
         "sort-by": "tri\u00e9 par",
-        "submit": "submit",
         "total": "total",
-        "translate": "translate",
         "translation": "traduction",
         "update": "mettre \u00e0 jour",
-        "upload": "upload",
         "video": "vid\u00e9o",
         "yes": "oui"
+    },
+    "word": {
+        "action": "action",
+        "add": "add",
+        "add-picture": "add-picture",
+        "born": "born",
+        "change-picture": "change-picture",
+        "create": "create",
+        "date": "date",
+        "death": "death",
+        "delete": "delete",
+        "description": "description",
+        "detail": "detail",
+        "email": "email",
+        "language": "language",
+        "list": "list",
+        "password": "password",
+        "report": "report",
+        "tags": "tags",
+        "title": "title",
+        "translation": "translation",
+        "update": "update",
+        "username": "username"
     }
 }

@@ -1,13 +1,15 @@
 {
+    "account": {
+        "change-password": "change-password",
+        "change-settings": "change-settings"
+    },
     "admin": {
         "label": {
             "account": "account",
             "event": "event",
             "people": "people",
             "picture": "picture",
-            "report": "report",
             "tag": "tag",
-            "tags": "tags",
             "translate": "translate",
             "video": "video"
         },
@@ -16,7 +18,6 @@
             "born": "born",
             "date": "date",
             "death": "death",
-            "description": "description",
             "event": "event",
             "name": "name",
             "photographer": "photographer",
@@ -24,7 +25,6 @@
             "profil": "profil",
             "tags": "tags",
             "title": "title",
-            "value": "value",
             "video": "video",
             "wikipedia": "wikipedia",
             "your-message": "your message"
@@ -36,7 +36,6 @@
         "check-email-description": "before logging in you must validate your email",
         "comfirm-new-password": "Confirm new password",
         "comfirm-password": "confirmation password",
-        "confirme-delete-account": "confirm the deletion of the account",
         "connection-account": "sing in",
         "create-account": "create an account",
         "delete-account": "delete the account",
@@ -61,12 +60,17 @@
         "error-in-form": "error in the form",
         "language": "missing translation",
         "network": "error, no internet connection",
-        "server": "server error ",
-        "unique-translate": "this object \"{model}\" has a duplicate translation"
+        "server": "server error "
     },
     "help": {
+        "account": {
+            "color-mode": "color-mode",
+            "default-language": "default-language",
+            "show-help": "show-help"
+        },
         "event": {
             "date": "the date when the event starts, you can simply set the date without the time (leave it at 00:00 midnight), to also add specific seconds in special cases (such as the explosion of the reactor at 1h23m44s).",
+            "event": "event",
             "global-description": "global-description",
             "langs-description": "write you the description of the event, what happened, why, or ...ect, this will be used in the texts displayed in the timeline.",
             "langs-title": "you give a title to the video to give a brief description of it, in the language select",
@@ -75,6 +79,9 @@
         "language": {
             "global-description": "global-description"
         },
+        "language-dosent-exist": "language-dosent-exist",
+        "language-no-selected": "language-no-selected",
+        "need-translation": "need-translation",
         "people": {
             "biography": "a biography of this person, his life ... ect.",
             "born": "the date on which he or she was born",
@@ -100,7 +107,6 @@
             "langs-name": "a translation of the tag"
         },
         "translate": {
-            "description": "you can help to translate this site!\nOn this page you will find under each category the texts to be translated (names of menus, buttons, help messages for content creation, etc.).",
             "global-description": "global-description"
         },
         "video": {
@@ -118,9 +124,14 @@
         "gallery": "gallery",
         "home": "home",
         "picture": "picture",
-        "register": "register",
         "timeline": "timeline",
         "video": "video"
+    },
+    "message": {
+        "color-mode": "color-mode",
+        "default-language": "default-language",
+        "delete": "delete",
+        "show-help": "show-help"
     },
     "pages": {
         "about": {
@@ -144,6 +155,10 @@
             "description": "you can contact me for any request, I will answer you as soon as possible!",
             "title": "contact"
         },
+        "forgot-password": {
+            "description": "description",
+            "title": "title"
+        },
         "home": {
             "description": "The Chernobyl nuclear disaster is a major nuclear accident that occurred on April 26, 1986 in the V.I. Lenin nuclear power plant, then located in the Ukrainian Soviet Socialist Republic, USSR. It is the most serious nuclear disaster of the 20th century, classified at level 7 (the highest) of the International Nuclear Event Scale (INES), surpassing, according to the Institute for Radiation Protection and Nuclear Safety (IRSN), by its immediate environmental impacts the Fukushima nuclear accident of 2011, classified at the same level. The IRSN mentions for these accidents potential health effects, lasting contamination of territories and important economic and social consequences.",
             "presentation": "presentation",
@@ -157,10 +172,6 @@
             "description": "a huge gallery of period photos on the whole history of Chernobyl, from the construction, to the photo of the explosion of the reactor, through the liquidators.",
             "title": "image gallery"
         },
-        "rechange-password": {
-            "description": "Forgot your password? Reset it!",
-            "title": "reset your password"
-        },
         "register": {
             "description": "join the chernobyle.org community to share your photo, video and much more!",
             "title": "registration"
@@ -173,46 +184,40 @@
     "success": {
         "contact": "your message has been sent successfully",
         "create": "creation successfully completed",
-        "delete-account": "successful deletion of the account",
-        "deleted": "deletion successfully completes",
+        "delete": "delete",
         "password-changed": "the password has been changed",
-        "report": "report sent successfully",
+        "report": "report",
         "update": "update successfully completed"
+    },
+    "success-account": "success-account",
+    "text": {
+        "wikipedia-link": "wikipedia-link"
     },
     "tools": {
         "action": "action",
-        "add": "add",
         "ascending": "ascending",
         "cancel": "cancel",
         "creator": "creator",
         "date": "date",
         "deleted": "are you sure you want to delete this object?",
         "descending": "descending",
-        "detail": "detail",
         "list": "list",
         "name": "name",
-        "new": "new",
         "save": "save",
         "save-add-other": "save and add other",
         "save-continue-editing": "save and continue editing",
         "uuid": "type"
     },
     "utils": {
-        "actions": "actions",
-        "actual-link": "actual link",
-        "admin": "admin",
         "best-contributor": "best contributor",
         "best-contributor-week": "best contributor of the week",
         "cancel": "cancel",
-        "category": "category",
         "change-sort-order": "change the sort order",
         "close": "close",
         "contact": "contact",
         "content": "content",
         "create": "create",
-        "currently": "currently",
         "delete": "delete",
-        "download": "download",
         "edit": "edit",
         "empty": "empty",
         "goto-about": "go to the about",
@@ -225,27 +230,21 @@
         "goto-timeline": "go to the timeline",
         "goto-video": "go to the video",
         "hours": "hours",
-        "identifier": "identifier",
+        "id": "id",
         "language": "language",
-        "last-contributing": "last contribution",
-        "link": "link",
-        "list": "list",
         "loading": "loading",
         "lock-password": "lock the password",
         "love": "love",
         "menu-medias": "medias",
         "minutes": "min",
-        "missing": "missing",
         "mood-sad": "mood sad",
         "navigation": "navigation",
         "need-translation": "need translation",
         "next": "next",
         "next-event": "next timeline's event",
         "no": "no",
-        "no-example-available": "no example available",
         "open-menu": "open menu",
         "or": "or",
-        "other-language": "other languages",
         "percentage": "percentage",
         "picture": "picture",
         "prev": "previous",
@@ -255,13 +254,33 @@
         "send": "send",
         "site-navigation": "site navigation",
         "sort-by": "sort by",
-        "submit": "submit",
         "total": "total",
-        "translate": "translate",
         "translation": "translation",
         "update": "update",
-        "upload": "upload",
         "video": "video",
         "yes": "yes"
+    },
+    "word": {
+        "action": "action",
+        "add": "add",
+        "add-picture": "add-picture",
+        "born": "born",
+        "change-picture": "change-picture",
+        "create": "create",
+        "date": "date",
+        "death": "death",
+        "delete": "delete",
+        "description": "description",
+        "detail": "detail",
+        "email": "email",
+        "language": "language",
+        "list": "list",
+        "password": "password",
+        "report": "report",
+        "tags": "tags",
+        "title": "title",
+        "translation": "translation",
+        "update": "update",
+        "username": "username"
     }
 }
