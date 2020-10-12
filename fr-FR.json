@@ -76,18 +76,14 @@
     "menu": {
         "about": "about",
         "account": "account",
-        "contact": "contact",
         "contribute": "contribute",
         "dashboard": "dashboard",
         "event": "event",
-        "forgot-password": "forgot-password",
         "gallery": "gallery",
         "home": "home",
-        "login": "login",
         "medias": "medias",
         "people": "people",
         "picture": "picture",
-        "register": "register",
         "tag": "tag",
         "timeline": "timeline",
         "translate": "translate",
@@ -98,7 +94,8 @@
         "help-us-description": "help-us-description",
         "language-dosent-exist": "language-dosent-exist",
         "language-no-selected": "language-no-selected",
-        "no-example-available": "no-example-available"
+        "no-example-available": "no-example-available",
+        "report": "report"
     },
     "success-message": {
         "account-delete": "account-delete",
@@ -154,6 +151,16 @@
         "thanks-contributors": "thanks-contributors",
         "thanks-donators": "thanks-donators",
         "your-message": "your-message"
+    },
+    "title": {
+        "about": "about",
+        "contact": "contact",
+        "forgot-password": "forgot-password",
+        "home": "home",
+        "login": "login",
+        "picture": "picture",
+        "register": "register",
+        "video": "video"
     },
     "word": {
         "account": "account",
@@ -216,7 +223,6 @@
         "tags": "tags",
         "title": "title",
         "total": "total",
-        "translate": "translate",
         "translation": "translation",
         "update": "update",
         "upload": "upload",
