@@ -36,6 +36,7 @@
         "video": "video"
     },
     "error-message": {
+        "cant-set-the-new-password": "cant-set-the-new-password",
         "error-in-the-form": "error-in-the-form",
         "network": "network",
         "server": "server"
@@ -166,6 +167,7 @@
         "account": "account",
         "action": "action",
         "add": "add",
+        "added": "added",
         "admin": "admin",
         "ascending": "ascending",
         "biography": "biography",
@@ -204,6 +206,7 @@
         "navigation": "navigation",
         "next": "next",
         "no": "no",
+        "nothing": "nothing",
         "or": "or",
         "password": "password",
         "percentage": "percentage",
