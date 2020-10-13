@@ -91,6 +91,7 @@
         "video": "video"
     },
     "message": {
+        "creator-description": "creator-description",
         "delete-account-description": "delete-account-description",
         "help-us-description": "help-us-description",
         "language-dosent-exist": "language-dosent-exist",
@@ -121,7 +122,6 @@
         "comfirm-new-password": "comfirm-new-password",
         "contribute-gitlab": "contribute-gitlab",
         "contribute-translate": "contribute-translate",
-        "creator-description": "creator-description",
         "creator-website": "creator-website",
         "goto-about": "goto-about",
         "goto-contribute": "goto-contribute",
