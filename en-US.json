@@ -8,7 +8,6 @@
         "delete-account": "delete acount",
         "email": "email",
         "forget-password": "forgot password",
-        "forgot-password": "",
         "login": "login",
         "logout": "logout",
         "new-password": "new password",
@@ -28,7 +27,6 @@
         "picture": "these are all the images related to chernobyl .",
         "register": "register to enlarge the community around chernobyl-disaster.org.",
         "report": "you can report us any problem concerning this page (e.g. request for deletions), with a text describing what's wrong (it must be in english or french)",
-        "show-help": "",
         "tag": "These are keywords that you can add to videos, images, events, etc., which are used to search the site.",
         "translate": "these are all the translations of the site, menu names, help texts, error messages, etc. To add a new language, you can contact me.\nthese translations are not live, they will be updated every night, only when the language has a ratio higher than 80%.",
         "video": "these are all the videos related to chernobyl."
@@ -61,7 +59,6 @@
     },
     "help-tag": {
         "langs-name": "this is the name of the tag, in the selected language.",
-        "name": ""
     },
     "help-video": {
         "date": "this is the date on which this video has passed, if you have already put an event, you are not obliged to put a date.",
@@ -72,7 +69,6 @@
     "menu": {
         "about": "about",
         "account": "account",
-        "contact": "",
         "contribute": "contribute",
         "dashboard": "dashboard",
         "event": "event",
