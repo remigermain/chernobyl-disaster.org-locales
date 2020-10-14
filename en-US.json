@@ -20,13 +20,15 @@
     "description": {
         "contact": "contacter l'equipe technique pour toute demande.",
         "event": "these are the important events on the history of the disaster, they will be visible on the timeline of the site, you can be taged on the photos and videos.",
-        "forgot-password": "forgot your password ? reset it !",
+        "forget-password": "",
+        "gallery-pictures": "",
+        "gallery-videos": "",
         "home": "The Chernobyl nuclear disaster was a major nuclear accident that occurred on 26 April 1986 at the V.I. Lenin nuclear power plant, then located in the Ukrainian Soviet Socialist Republic, USSR. It is the most serious nuclear disaster of the 20th century, classified at level 7 (the highest) of the International Nuclear Event Scale (INES), surpassing, according to the Institute for Radiological Protection and Nuclear Safety (IRSN), by its immediate environmental impact the Fukushima nuclear accident of 2011, classified at the same level. For these accidents, IRSN mentions potential health effects, lasting contamination of territories and significant economic and social consequences.",
         "login": "Log in and help this site grow up !",
         "people": "these are the important perssonage in the history of chernobyl.",
-        "picture": "these are all the images related to chernobyl .",
         "register": "register to enlarge the community around chernobyl-disaster.org.",
         "report": "you can report us any problem concerning this page (e.g. request for deletions), with a text describing what's wrong (it must be in english or french)",
+        "show-help": "",
         "tag": "These are keywords that you can add to videos, images, events, etc., which are used to search the site.",
         "translate": "these are all the translations of the site, menu names, help texts, error messages, etc. To add a new language, you can contact me.\nthese translations are not live, they will be updated every night, only when the language has a ratio higher than 80%.",
         "video": "these are all the videos related to chernobyl."
@@ -39,48 +41,49 @@
     },
     "help-event": {
         "date": "this is the date on which this event took place, if you don't have the date, you can set an approximate date, you can add up to the nearest second.",
-        "event": "these are the important events on the history of the disaster, they will be visible on the timeline of the site, you can be taged on the photos and videos.",
         "langs-description": "this is the description of the event, everything that has happened so far, you can (and must) be as detailed as possible, feel free to format your story !",
         "langs-title": "this is the title of the event, it should be clear, and should explain what is happening in as few words as possible.",
-        "title": "it is a quick explanatory tritre, only for the contribution part, it must be in english."
+        "referent-title": ""
     },
     "help-people": {
         "biography": "a biography about him, what he did during his life, and his role in the history of Chernobyl.",
-        "born": "the date on which he was born",
-        "death": "the date on which he died",
-        "name": "are name and surname",
-        "profil": "a photo of him (from the front if possible)."
+        "date-of-birth": "",
+        "date-of-death": "",
+        "name-surname": "",
+        "profile-photo": ""
     },
     "help-picture": {
         "date": "this is the date on which this picture has passed, if you have already put an event, you are not obliged to put a date.",
         "langs-title": "this is a quick explanatory title, only for the contribution part, in the selected language.",
         "picture": "it's the picture ( the best possible quality ).",
-        "title": "it is a short explanatory title, only for the contribution part, it must be in english."
+        "referent-title": ""
     },
     "help-tag": {
         "langs-name": "this is the name of the tag, in the selected language.",
+        "name": ""
     },
     "help-video": {
         "date": "this is the date on which this video has passed, if you have already put an event, you are not obliged to put a date.",
         "langs-title": "this is a quick explanatory title, only for the contribution part, in the selected language.",
-        "title": "it is a short explanatory title, only for the contribution part, it must be in english.",
-        "video": "this is the link of the video ( only youtube at the moment ) related to chernobyl."
+        "referent-title": "",
+        "video-link": ""
     },
-    "menu": {
-        "about": "about",
-        "account": "account",
-        "contribute": "contribute",
-        "dashboard": "dashboard",
-        "event": "event",
-        "gallery": "gallery",
-        "home": "home",
-        "medias": "medias",
-        "people": "people",
-        "picture": "picture",
-        "tag": "tag",
-        "timeline": "timeline",
-        "translate": "translate",
-        "video": "video"
+    "menu-name": {
+        "about": "",
+        "account": "",
+        "contact": "",
+        "contribute": "",
+        "dashboard": "",
+        "event": "",
+        "gallery": "",
+        "home": "",
+        "medias": "",
+        "people": "",
+        "picture": "",
+        "tag": "",
+        "timeline": "",
+        "translate": "",
+        "video": ""
     },
     "message": {
         "creator-description": "Web developer based in Lyon (France) and passionate about the history of Chernobyl. I was interested in the consequences and sacrifices that the citizens of the USSR had to go through to mitigate the adverse effects of this cataclysm. This is why I created this site, in order to keep their stories alive and not to forget what these men and women did for us, and for future generations.",
@@ -114,6 +117,7 @@
         "contribute-gitlab": "contribute in gitlab",
         "contribute-translate": "contribute in translate",
         "creator-website": "creator website",
+        "date-of-birth": "",
         "goto-about": "go to about",
         "goto-contribute": "go to contribute",
         "goto-gallery": "go to gallery",
@@ -135,12 +139,14 @@
         "open-menu": "open menu",
         "preview-other-language": "Preview another language",
         "previous-event": "previous event",
+        "referent-title": "",
         "save-add-other": "save and add another",
         "save-continue-editing": "save and continue-editing",
         "show-help": "show help",
         "site-navigation": "site navigation",
         "thanks-contributors": "thanks contributors",
         "thanks-donators": "thanks donators",
+        "video-link": "",
         "your-message": "your message"
     },
     "word": {
@@ -148,7 +154,6 @@
         "action": "action",
         "add": "add",
         "added": "added",
-        "admin": "admin",
         "ascending": "ascending",
         "biography": "biography",
         "born": "born",
@@ -162,6 +167,7 @@
         "create": "create",
         "creator": "creator",
         "date": "date",
+        "date-of-death": "",
         "death": "death",
         "delete": "delete",
         "deleted": "deleted",
@@ -178,11 +184,10 @@
         "language": "language",
         "list": "list",
         "loading": "loading",
-        "love": "love",
         "minutes": "minutes",
         "modify": "modify",
-        "mood-sad": "mood sad",
         "name": "name",
+        "name-surname": "",
         "next": "next",
         "no": "no",
         "nothing": "nothing",
@@ -192,7 +197,7 @@
         "picture": "picture",
         "presentation": "presentation",
         "previous": "previous",
-        "profil": "profil",
+        "profile-photo": "",
         "ratio": "ratio",
         "report": "report",
         "required": "required",
@@ -210,7 +215,6 @@
         "upload": "upload",
         "username": "username",
         "validate": "validate",
-        "video": "video",
         "yes": "yes"
     }
 }
